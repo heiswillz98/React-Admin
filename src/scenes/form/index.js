@@ -138,8 +138,11 @@ const Form = () => {
                 sx={{ gridColumn: "span 4" }}
               />
             </Box>
+
             <Box display="flex" justifyContent="end" mt="20px">
-              <Button>Create a User</Button>
+              <Button type="submit" color="secondary" variant="contained">
+                Create a User
+              </Button>
             </Box>
           </form>
         )}
